@@ -1,0 +1,26 @@
+.game__lists input {
+  border: none;
+}
+.game__grid {
+  margin-block: 50px;
+  display: grid;
+  width: 100%;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 70px 0px;
+}
+input {
+  width: 100%;
+  all: unset;
+  background: var(--white);
+  padding: 8px;
+  border-radius: 4px;
+}
+button {
+  all: unset;
+  padding: 10px 30px;
+  background: var(--black);
+
+  color: var(--white);
+  margin-top: 1rem;
+  border-radius: 4px;
+}

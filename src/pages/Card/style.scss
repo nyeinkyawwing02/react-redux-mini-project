@@ -1,0 +1,65 @@
+.card {
+  width: 240px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: var(--gradient_color_1);
+
+  border-radius: 10px;
+  transition: all 1s ease-in-out;
+  position: relative;
+}
+.card img {
+  width: 300px;
+  transition: all 1s ease-in-out;
+}
+.card .card__title {
+  width: 100%;
+  background-color: var(--black);
+  padding-block: 10px;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  z-index: 10;
+  text-align: center;
+  color: var(--white);
+  font-size: 1.5rem;
+  transition: all 1s ease-in-out;
+}
+.card:hover {
+  background-color: var(--red);
+  border-top-right-radius: 50%;
+  border-top-left-radius: 50%;
+}
+.card:hover img {
+  transform: scale(1.15) translateY(-8%);
+}
+.card:hover .card__title {
+  width: 100%;
+  background: var(--gradient_color_3);
+  padding-block: 10px;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  z-index: 10;
+  text-align: center;
+  color: var(--white);
+  font-size: 1.5rem;
+}
+.action_icons {
+  display: flex;
+  align-items: flex-end;
+  position: absolute;
+  top: -20%;
+  right: 0;
+  color: var(--white);
+  font-size: 1.8rem;
+}
+.icons {
+  cursor: pointer;
+}

@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Iceland&display=swap');
+
+:root {
+  --pink: hsl(0, 77%, 79%);
+  --white: hsl(0, 0%, 100%);
+  --white_7: hsla(0, 0%, 100%, 0.7);
+  --red: hsl(0, 100%, 50%);
+  --black: hsl(0, 3%, 6%, 0.5);
+  --gradient_color_1: linear-gradient(
+    170deg,
+    hsl(0, 3%, 6%, 0.7) 0%,
+    #e87070 100%
+  );
+  --gradient_color_2: linear-gradient(
+    170deg,
+    #e87070 0%,
+    hsl(0, 3%, 6%, 0.7) 100%
+  );
+  --gradient_color_3: linear-gradient(
+    180deg,
+    hsl(0, 3%, 6%, 0.7) 0%,
+    #e87070 100%
+  );
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Iceland', cursive;
+}
+* {
+  outline: none;
+}
+.bg__image {
+  background-image: url("./assets/bg.svg");
+}
+a {
+  text-decoration: inherit;
+}
